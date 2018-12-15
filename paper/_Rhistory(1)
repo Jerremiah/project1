@@ -1,0 +1,512 @@
+templb <- (which(llist %in% blist )
+tempbl <- (which(blist %in% llist )
+templb <- which(llist %in% blist)
+tempbl <- which(blist %in% llist)
+llist[templb]
+vector(llist[templb])
+as.vector(llist[templb])
+unlist(llist[templb])
+templb <- which(llist %in% blist) %>% sort()
+unlist(llist[templb])
+llist[templb]
+class(llist[templb])
+llist[temp]
+class(llist[temp])
+llist[templb]
+class(temp)
+class(templb)
+templb
+temp
+llist[temp]
+llist[templb]
+as.vector(templb)
+templb <- as.vector(templb)
+llist[templb]
+llist[,templb]
+dim(llist)
+dim(templb)
+llist
+temp[-templb]
+templb
+temp
+temp[templb]
+temp[-templb]
+temp[-c(templb)]
+which(temp != tempbl)
+which(temp !%in% tempbl)
+which(temp %in% tempbl)
+which(temp %in% templb)
+temp[-(which(temp %in% templb))]
+remove(temp)
+remove(tempbl)
+remove(templb)
+length(lapply(alist ,function(x){grep(x,llist,value = F)}))
+length(lapply(blist ,function(x){grep(x,llist,value = F)}))
+length(lapply(blist ,function(x){grep(x,llist,value = F)}))
+unlist(lapply(blist ,function(x){grep(x,llist,value = F)}))
+unlist(lapply(alist ,function(x){grep(x,llist,value = F)}))
+temp <- unlist(lapply(alist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+temp <- unlist(lapply(clist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+temp <- unlist(lapply(dlist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+temp <- unlist(lapply(elist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+temp <- unlist(lapply(flist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+temp <- unlist(lapply(glist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+temp <- unlist(lapply(hlist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+temp <- unlist(lapply(ilist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+temp <- unlist(lapply(jlist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+temp <- unlist(lapply(klist ,function(x){grep(x,llist,value = F)}))
+length(temp)
+length(temp)/length(alist)
+length(temp)
+## covered number
+temp <- unlist(lapply(alist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(alist)
+## covered rate
+temp <- unlist(lapply(alist ,function(x){grep(x,llist,value = F)}))
+## covered rate
+temp <- unlist(lapply(alist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(alist)
+## how many high csr company is in the seolist
+lapply(seolist ,function(x){grep(x,alist,value = F)})
+## how many high csr company is in the seolist
+lapply(alist ,function(x){grep(x,seolist,value = F)})
+## how many high csr company is in the seolist
+length(lapply(alist ,function(x){grep(x,seolist,value = F)}))
+## how many high csr company is in the seolist
+unlist(lapply(alist ,function(x){grep(x,seolist,value = F)}))
+# a
+unlist(lapply(alist ,function(x){grep(x,seolist,value = F)}))
+# b
+unlist(lapply(blist ,function(x){grep(x,seolist,value = F)}))
+# c
+unlist(lapply(clist ,function(x){grep(x,seolist,value = F)}))
+# d
+unlist(lapply(dlist ,function(x){grep(x,seolist,value = F)}))
+# e
+unlist(lapply(elist ,function(x){grep(x,seolist,value = F)}))
+# f
+unlist(lapply(flist ,function(x){grep(x,seolist,value = F)}))
+# g
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# h
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# i
+unlist(lapply(ilist ,function(x){grep(x,seolist,value = F)}))
+# j
+unlist(lapply(jlist ,function(x){grep(x,seolist,value = F)}))
+# k
+unlist(lapply(klist ,function(x){grep(x,seolist,value = F)}))
+# l
+unlist(lapply(llist ,function(x){grep(x,seolist,value = F)}))
+library(openxlsx)
+library(dplyr)
+library(tidyverse)
+library(readr)
+csrload <- function(year){
+dest <- sprintf("J:/paper_EX/paper/data/天下/b/%s.xlsx", year)
+read.xlsx(dest)
+}
+## covered rate
+# l to a
+temp <- unlist(lapply(alist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(alist)
+# l to b
+temp <- unlist(lapply(blist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(blist)
+# l to c
+temp <- unlist(lapply(clist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(clist)
+# l to d
+temp <- unlist(lapply(dlist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(dlist)
+# l to e
+temp <- unlist(lapply(elist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(elist)
+# l to f
+temp <- unlist(lapply(flist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(flist)
+# l to g
+temp <- unlist(lapply(glist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(glist)
+# l to h
+temp <- unlist(lapply(hlist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(hlist)
+# l to i
+temp <- unlist(lapply(ilist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(ilist)
+# l to j
+temp <- unlist(lapply(jlist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(jlist)
+# l to k
+temp <- unlist(lapply(klist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(klist)
+## how many high csr company is in the seolist
+# a
+unlist(lapply(alist ,function(x){grep(x,seolist,value = F)}))
+# b
+unlist(lapply(blist ,function(x){grep(x,seolist,value = F)}))
+# c
+unlist(lapply(clist ,function(x){grep(x,seolist,value = F)}))
+# d
+unlist(lapply(dlist ,function(x){grep(x,seolist,value = F)}))
+# e
+unlist(lapply(elist ,function(x){grep(x,seolist,value = F)}))
+# f
+unlist(lapply(flist ,function(x){grep(x,seolist,value = F)}))
+# g
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# h
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# i
+unlist(lapply(ilist ,function(x){grep(x,seolist,value = F)}))
+# j
+unlist(lapply(jlist ,function(x){grep(x,seolist,value = F)}))
+# k
+unlist(lapply(klist ,function(x){grep(x,seolist,value = F)}))
+# l
+unlist(lapply(llist ,function(x){grep(x,seolist,value = F)}))
+## result none of them is in the seolist
+read.xlsx("J:/paper_EX/paper/data/TCGI/2014_5%.xlsx")
+top5% <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014_5%.xlsx")
+top5% <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014_5%.xlsx")
+top5 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014_5%.xlsx")
+top5
+View(top5)
+top5[1]
+split(top5[1])
+strsplit(top5[1] )
+strsplit(top5[1], split = "")
+strsplit(top5[1], split = " ")
+strsplit(top5[1], split = " ", fixed = TRUE)
+strsplit(top5[1], split = "", fixed = TRUE)
+View(top5)
+nchar(top5[1,1])
+top5 <-top5[2]
+top5
+top5 <-top5[2] %>% unlist()
+top5 <-top5[,2] %>% unlist()
+unlist(top5)
+unlist(top5) %>% unname()
+top5 <-top5 %>% select(, 簡稱)
+top5 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014_5%.xlsx")
+top5 <-top5 %>% select(, 簡稱)
+top5 <-top5 %>% select(, "簡稱")
+top5 <-top5 %>% select(, 2)
+library(openxlsx)
+library(dplyr)
+library(tidyverse)
+library(readr)
+top5 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014_5%.xlsx")
+top5 <- top5 %>% select(, 2)
+top5 <- select(top5, 2)
+top5
+top5 <- select(top5, 簡稱)
+top5 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014_5%.xlsx")
+top5 <- select(top5, 簡稱)
+top5 <- select(top5, "簡稱")
+top5 <- select(top5, "簡.稱")
+top5
+top5 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014_5%.xlsx")
+top5 <- top5  %>% select( "簡.稱")
+top5
+top5 <- top5  %>%
+select( "簡.稱") %>%
+unlist(top5) %>%
+unname()
+top5
+source('J:/paper_EX/paper/readdata.R', encoding = 'UTF-8', echo=TRUE)
+source('J:/paper_EX/paper/readdata.R', encoding = 'UTF-8', echo=TRUE)
+source('J:/paper_EX/paper/demo.R', encoding = 'UTF-8', echo=TRUE)
+library(openxlsx)
+library(dplyr)
+library(tidyverse)
+library(readr)
+csrload <- function(year){
+dest <- sprintf("J:/paper_EX/paper/data/天下/b/%s.xlsx", year)
+read.xlsx(dest)
+}
+## covered rate
+# l to a
+temp <- unlist(lapply(alist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(alist)
+# l to b
+temp <- unlist(lapply(blist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(blist)
+# l to c
+temp <- unlist(lapply(clist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(clist)
+# l to d
+temp <- unlist(lapply(dlist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(dlist)
+# l to e
+temp <- unlist(lapply(elist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(elist)
+# l to f
+temp <- unlist(lapply(flist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(flist)
+# l to g
+temp <- unlist(lapply(glist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(glist)
+# l to h
+temp <- unlist(lapply(hlist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(hlist)
+# l to i
+temp <- unlist(lapply(ilist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(ilist)
+# l to j
+temp <- unlist(lapply(jlist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(jlist)
+# l to k
+temp <- unlist(lapply(klist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(klist)
+## how many high csr company is in the seolist
+# a
+unlist(lapply(alist ,function(x){grep(x,seolist,value = F)}))
+# b
+unlist(lapply(blist ,function(x){grep(x,seolist,value = F)}))
+# c
+unlist(lapply(clist ,function(x){grep(x,seolist,value = F)}))
+# d
+unlist(lapply(dlist ,function(x){grep(x,seolist,value = F)}))
+# e
+unlist(lapply(elist ,function(x){grep(x,seolist,value = F)}))
+# f
+unlist(lapply(flist ,function(x){grep(x,seolist,value = F)}))
+# g
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# h
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# i
+unlist(lapply(ilist ,function(x){grep(x,seolist,value = F)}))
+# j
+unlist(lapply(jlist ,function(x){grep(x,seolist,value = F)}))
+# k
+unlist(lapply(klist ,function(x){grep(x,seolist,value = F)}))
+# l
+unlist(lapply(llist ,function(x){grep(x,seolist,value = F)}))
+## result none of them is in the seolist
+## read 2007-2018 datas
+a <- csrload(2007); b <- csrload(2008); c <- csrload(2009)
+d <- csrload(2010); e <- csrload(2011); f <- csrload(2012)
+g <- csrload(2013); h <- csrload(2014); i <- csrload(2015)
+j <- csrload(2016); k <- csrload(2017); l <- csrload(2018)
+## 2007企業名單
+alist <- a %>% select(企業)
+alist <- unlist(alist)
+alist <- unname(alist)
+## 2008企業名單
+blist <- b %>% select(企業)
+blist <- unlist(blist)
+blist <- unname(blist)
+## 2009企業名單
+clist <- c %>% select(企業)
+clist <- unlist(clist)
+clist <- unname(clist)
+## 2010企業名單
+dlist <- d %>% select(企業)
+dlist <- unlist(dlist)
+dlist <- unname(dlist)
+## 2011企業名單
+elist <- e %>% select(企業)
+elist <- unlist(elist)
+elist <- unname(elist)
+## 2012企業名單
+flist <- f %>% select(企業)
+flist <- unlist(flist)
+flist <- unname(flist)
+## 2013企業名單
+glist <- g %>% select(企業)
+glist <- unlist(glist)
+glist <- unname(glist)
+## 2014企業名單
+hlist <- h %>% select(企業)
+hlist <- unlist(hlist)
+hlist <- unname(hlist)
+## 2015企業名單
+ilist <- i %>% select(企業)
+ilist <- unlist(ilist)
+ilist <- unname(ilist)
+## 2016企業名單
+jlist <- j %>% select(企業)
+jlist <- unlist(jlist)
+jlist <- unname(jlist)
+## 2017企業名單
+klist <- k %>% select(企業)
+klist <- unlist(klist)
+klist <- unname(klist)
+## 2018企業名單
+llist <- l %>% select(企業)
+llist <- unlist(llist)
+llist <- unname(llist)
+library(openxlsx)
+library(dplyr)
+library(tidyverse)
+library(readr)
+csrload <- function(year){
+dest <- sprintf("J:/paper_EX/paper/data/天下/b/%s.xlsx", year)
+read.xlsx(dest)
+}
+## covered rate
+# l to a
+temp <- unlist(lapply(alist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(alist)
+# l to b
+temp <- unlist(lapply(blist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(blist)
+# l to c
+temp <- unlist(lapply(clist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(clist)
+# l to d
+temp <- unlist(lapply(dlist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(dlist)
+# l to e
+temp <- unlist(lapply(elist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(elist)
+# l to f
+temp <- unlist(lapply(flist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(flist)
+# l to g
+temp <- unlist(lapply(glist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(glist)
+# l to h
+temp <- unlist(lapply(hlist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(hlist)
+# l to i
+temp <- unlist(lapply(ilist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(ilist)
+# l to j
+temp <- unlist(lapply(jlist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(jlist)
+# l to k
+temp <- unlist(lapply(klist ,function(x){grep(x,llist,value = F)}))
+length(temp)/length(klist)
+## how many high csr company is in the seolist
+# a
+unlist(lapply(alist ,function(x){grep(x,seolist,value = F)}))
+# b
+unlist(lapply(blist ,function(x){grep(x,seolist,value = F)}))
+# c
+unlist(lapply(clist ,function(x){grep(x,seolist,value = F)}))
+# d
+unlist(lapply(dlist ,function(x){grep(x,seolist,value = F)}))
+# e
+unlist(lapply(elist ,function(x){grep(x,seolist,value = F)}))
+# f
+unlist(lapply(flist ,function(x){grep(x,seolist,value = F)}))
+# g
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# h
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# i
+unlist(lapply(ilist ,function(x){grep(x,seolist,value = F)}))
+# j
+unlist(lapply(jlist ,function(x){grep(x,seolist,value = F)}))
+# k
+unlist(lapply(klist ,function(x){grep(x,seolist,value = F)}))
+# l
+unlist(lapply(llist ,function(x){grep(x,seolist,value = F)}))
+## result none of them is in the seolist
+### Big company
+x <- read.xlsx("J:/paper_EX/paper/data/SEO_tse.xlsx")
+x$公告日 <- as.Date(x$公告日, format = "%Y/%m/%d") # turn into "date" format
+x$事件日 <- as.Date(x$事件日, format = "%Y/%m/%d")
+y <- subset(x, 公告日 > "2007-12-31") # create a subset during 2008-2018
+seolist <- y %>% group_by(公司及名稱) %>% # try to get the "公司名稱" out of the data
+summarise(n = n()) %>%  # it is not necesary step. all I wanted to show is the usage of 'n=n()'
+select(公司及名稱)
+seolist <- apply(seolist, 1, function(x){substr(x, 9, nchar(x))})
+unlist(lapply(alist ,function(x){grep(x,seolist,value = F)}))
+# b
+unlist(lapply(blist ,function(x){grep(x,seolist,value = F)}))
+# c
+unlist(lapply(clist ,function(x){grep(x,seolist,value = F)}))
+# d
+unlist(lapply(dlist ,function(x){grep(x,seolist,value = F)}))
+# e
+unlist(lapply(elist ,function(x){grep(x,seolist,value = F)}))
+# f
+unlist(lapply(flist ,function(x){grep(x,seolist,value = F)}))
+# g
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# h
+unlist(lapply(glist ,function(x){grep(x,seolist,value = F)}))
+# i
+unlist(lapply(ilist ,function(x){grep(x,seolist,value = F)}))
+# j
+unlist(lapply(jlist ,function(x){grep(x,seolist,value = F)}))
+# k
+unlist(lapply(klist ,function(x){grep(x,seolist,value = F)}))
+# l
+unlist(lapply(llist ,function(x){grep(x,seolist,value = F)}))
+## result none of them is in the seolist
+# l
+unlist(sapply(llist ,function(x){grep(x,seolist,value = F)}))
+# l
+slapply(llist ,function(x){grep(x,seolist,value = F)})
+# l
+sapply(llist ,function(x){grep(x,seolist,value = F)})
+unlist(lapply(llist ,function(x){grep(x,top5,value = F)}))
+unlist(lapply(top5 ,function(x){grep(x,llsit,value = F)}))
+unlist(lapply(top5 ,function(x){grep(x,llist,value = F)}))
+unlist(lapply(llist ,function(x){grep(x,top5,value = F)}))
+top6_20 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014_6-20%.xlsx")
+top6_20 <- top6_20  %>%
+select( "簡.稱") %>%
+unlist(top6_20) %>%
+unname()
+unlist(lapply(top6_20 ,function(x){grep(x,llist,value = F)}))
+unlist(lapply(top6_20 ,function(x){grep(x,alist,value = F)}))
+unlist(lapply(top5 ,function(x){grep(x,alist,value = F)}))
+top2014_6_20 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014_6-20%.xlsx")
+top2014_6_20 <- top2014_6_20  %>%
+select( "簡.稱") %>%
+unlist(top6_20) %>%
+unname()
+remove(top5)
+remove(top6_20)
+top2017_5 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014.xlsx", sheet =1)
+top5
+top2017_5 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014.xlsx", sheet =1)
+top2017_5 <- top2017_5  %>%
+select( "簡.稱") %>%
+unlist(top2017_5) %>%
+unname()
+top2017_5
+top2014_6_20 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014.xlsx", sheet = 2)
+top2014_6_20 <- top2014_6_20  %>%
+select( "簡.稱") %>%
+unlist(top6_20) %>%
+unname()
+top2014_6_20 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014.xlsx", sheet = 2)
+top2014_6_20 <- top2014_6_20  %>%
+select( "簡.稱") %>%
+unlist(top2014_6_20) %>%
+unname()
+unlist(lapply(top5 ,function(x){grep(x,alist,value = F)}))
+remove(top2017_5)
+top2014_5 <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014.xlsx", sheet =1)
+top2014_5 <- top2017_5  %>%
+select( "簡.稱") %>%
+unlist(top2017_5) %>%
+unname()
+top2014_5 <- top2014_5  %>%
+select( "簡.稱") %>%
+unlist(top2014_5) %>%
+unname()
+top2014_notin <- read.xlsx("J:/paper_EX/paper/data/TCGI/2014.xlsx", sheet = 3)
+top2014_notin <- top2014_notin  %>%
+select( "簡.稱") %>%
+unlist(top2014_notin) %>%
+unname()
+unlist(lapply(top2014_5 ,function(x){grep(x,alist,value = F)}))
+unlist(lapply(top2014_6_20 ,function(x){grep(x,alist,value = F)}))
+unlist(lapply(top2014_notin ,function(x){grep(x,alist,value = F)}))

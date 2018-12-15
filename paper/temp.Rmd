@@ -1,0 +1,58 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r }
+## total SEO data seo_tse
+seo_tse
+seo_otc
+dim(seo_tse);dim(seo_otc)
+
+
+## adj.SEO data
+tse07 
+tse14 
+otc07
+otc14
+```
+
+```{r}
+## CSR data - 天下
+# 30
+a07
+b08
+c09
+d10
+e11
+f12 
+g13
+h14 
+
+#50
+i15 
+j16 
+k17 
+l18 
+
+```
+
+```{r}
+##CSR data - 2017 台灣公司治理指標TCGI
+data.frame(csr2017_5)
+data.frame(csr2017_6_20)
+data.frame(csr2017_21_35)
+data.frame(csr2017_36_50)
+data.frame(csr2017_51_65)
+data.frame(csr2017_66_80)
+data.frame(csr2017_81_100)
+data.frame(csr2017_notin)
+
+
+```
+
+
+```{r}
+## SEO 公司分類 with 2017 TCGI
+from07
+from14
+```

@@ -1,0 +1,68 @@
+.colorme {color:#21a79e;}
+.nav-bar > li:hover, .nav-bar > li a:hover  { color: #749f93;}
+.nav-bar > li.active > a { }
+ul.flyout li a:hover, .nav-bar li ul li a:hover {color:#749f93;}
+.flyout {border-top:2px solid #21a79e;}
+.sectiontitle {border-left: 4px solid #21a79e;}
+::-moz-selection{background:#21a79e;color:#fff;}
+::selection{background:#21a79e;color:#fff;}
+.ca-menu li:hover .ca-main {color: #21a79e;}
+.topborder { border-top:4px solid #21a79e;}
+.readmore {background:#21a79e;}
+ #subheader {
+	border-top: 1px solid #21a79e;
+	color: #eee;
+	background-color: #21a79e;
+}
+ #subheader a {color: #eee;}
+ #subheader a:hover {color: #fff;}
+ .readmore {background:#21a79e;}
+ #testimonials blockquote cite {color:#21a79e;}
+ .tags {background:#21a79e;}
+ ul.pagination li.current a {background: #21a79e;}
+.saymore {color:#21a79e;}
+.submit {background:#21a79e;} 
+dl.tabs dd.active { border-bottom: 3px solid #21a79e;}
+ul.accordion > li.active {border-top: 3px solid #21a79e;}
+div.alert-box.default { background-color: #21a79e;}
+.slide {	margin: 0;	padding: 0;	border-top: solid 4px #21a79e;}
+.btn-slide {	background:#21a79e url(../../images/plus.png) no-repeat;}
+.btn-slide.active { background: #21a79e url(../../images/minus.png) no-repeat;}
+#footer {border-top:#21a79e 4px solid;}
+.back-top a:hover{background-color: #21a79e;}
+.sf-shadow ul {border-top:2px solid #21a79e;}
+.panel {border-left:4px solid #21a79e;}
+.colorbackground {background:#21a79e; font-family:"微軟正黑體"; color:#FFF; font-size:15px; text-align:center; margin:0 25%; height:36px; line-height:36px;}
+.colorback { font-family:"微軟正黑體"; color:#333; font-size:15px; text-align:center; margin:0 25%; height:36px; line-height:36px;}
+#testimonials {border-left: solid 6px #21a79e;}
+.ei-title h2{background:#21A79E;
+font-family:"微軟正黑體";
+font-size:20px;
+text-align:center;
+color:#fff;
+font-weight:normal;
+line-height:25px;
+	padding:30px 20px;
+
+}
+
+.ei-title h2 .w{background:#ffffff;
+font-family:"微軟正黑體";
+font-size:18px;
+color:#21A79E;
+font-weight:normal;
+line-height:24px;
+	padding:10px 0 ;
+	margin-top:20px;
+
+}
+.ei-title h2 .w a{background:#ffffff;
+font-family:"微軟正黑體";
+font-size:18px;
+color:#21A79E;
+font-weight:normal;
+line-height:24px;
+	padding:10px 0 ;
+	margin-top:20px;
+
+}
